@@ -1,0 +1,43 @@
+* {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+section {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 2px solid #333;
+	border-radius: 10px;
+	text-align: center;
+	background-color: #0074d94f;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 700px;
+}
+[data-testid="slackUserName"] {
+	font-size: 44px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+[data-testid="slackDisplayImage"] img {
+	max-width: 50%;
+	border-radius: 50%;
+    margin: 60px 0px;
+}
+[data-testid="currentDayOfTheWeek"] {
+	font-size: 28px;
+	margin: 10px 0;
+}
+[data-testid="currentUTCTime"] {
+	font-size: 28px;
+	margin: 10px 0;
+}
+[data-testid="myTrack"] {
+	font-size: 28px;
+	margin: 10px 0;
+}
+[data-testid="githubURL"] a {
+	font-size: 28px;
+	text-decoration: none;
+	color: #0074d9; /* Change to your desired link color */
+}
